@@ -1,0 +1,44 @@
+h1, h5 {
+    color: white;
+}
+.canvas {
+    background-color: black;
+    left: 0;
+    z-index: 0;
+}
+
+.intro {
+    color: white;
+    z-index: 1;
+}
+
+.name {
+    color: aqua;
+    font-weight: bold;
+}
+
+@media(max-width:736px) {
+    h1 {
+        font-size: 2.3rem;
+    }
+}
+
+@media(max-width:420px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        font-size: .75rem;
+    }
+}
+
+@media(max-width:320px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    h5 {
+        font-size: .85rem;
+    }
+}

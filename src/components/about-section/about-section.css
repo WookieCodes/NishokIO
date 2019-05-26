@@ -1,0 +1,20 @@
+.about-section {
+    background-color: whitesmoke;
+    padding: 100px 0;
+}
+
+.about-section h1{
+    color: black;
+    padding-bottom: 25px;
+}
+
+.about-section img {
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+@media(max-width: 812px) {
+    .skills-wrapper {
+        margin-top: 50px;
+    }
+}

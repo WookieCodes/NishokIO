@@ -1,0 +1,56 @@
+.projects-section {
+    background-color: white;
+    position: relative;
+    padding: 100px 0;
+}
+
+.projects-section h1 {
+    color: black;
+    text-align: center;
+}
+
+.projects-section img {
+    height: 300px;
+    width: 300px;
+}
+
+.project-wrapper {
+    position: relative;
+}
+
+.img-desc-wrapper {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    visibility: hidden;
+    opacity: 0;
+
+    transition: all .2s ease;
+}
+
+.img-desc-wrapper p {
+    padding: 0 10px;
+}
+
+.project-wrapper:hover .img-desc-wrapper {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+@media(max-width:767px) {
+    .project-wrapper {
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:400px) {
+    .projects-section img,
+    .img-desc-wrapper {
+        height: 200px;
+        width: 200px;
+    }
+}
